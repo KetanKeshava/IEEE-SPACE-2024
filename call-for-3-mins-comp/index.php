@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<?php $page = 'three-min'; ?>
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>3 Minute Thesis Competition | SPACE 2024</title>
+
+  <link rel="shortcut icon" href="../images/favicon.ico" type="">
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <!-- slick slider -->
+
+  <link rel="stylesheet" href="../css/slick-theme.css" />
+  <!-- font awesome style -->
+  <link href="../css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="../css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="../css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <!-- <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.php">
+            <span>
+              SPACE 2024
+            </span>
+          </a>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.php">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Committee
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../organizing-committee/index.php">Organizing Committee</a>
+                    <a class="dropdown-item" href="../technical-program-committee/index.php">Technical Program
+                      Committee</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Authors
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item active" href="../call-for-papers/index.php">Call For Papers</a>
+                    <a class="dropdown-item" href="../paper-submission/index.php">Paper Submission</a>
+                    <a class="dropdown-item" href="../important-dates/index.php">Important Dates</a>
+                    <a class="dropdown-item" href="../awards.php">Awards</a>
+                    <a class="dropdown-item" href="../downloads/MAPCON-CFP.pdf" target="_blank" download="MAPCON-brochure">
+                      Download CFP
+                    </a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Student Program
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../phd-student-initiative/index.php">PhD Student Initiative
+                      Program</a>
+                    <a class="dropdown-item" href="../student-paper-award/index.php">Student Paper Award</a>
+                    <a class="dropdown-item" href="../b.tech_m.tech-student-connect/index.php">B.Tech / M.Tech Student
+                      Connect Initiative Program</a>
+                    <a class="dropdown-item" href="../student-opportunities/index.php">Opportunities for Students</a>
+                    <a class="dropdown-item" href="../job-opportunities/index.php">Job Opportunities</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../speakers.php"> Speakers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../sponsorship.php"> Sponsorship</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Schedule
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../tutorial.php">Tutorial</a>
+                    <a class="dropdown-item" href="../workshop-1.php">Workshop-1</a>
+                    <a class="dropdown-item" href="../workshop-2.php">Workshop-2</a>
+                    <a class="dropdown-item" href="../downloads/MAPCON PROGRAM SCHEDULE.pdf" target="_blank">Conference</a>
+                    <a class="dropdown-item" href="../downloads/MAPCON Presentation.pptx" target="_blank">Presentation
+                      Template</a>
+                    <a class="dropdown-item" href="../downloads/MAPCON_digital_poster.pptx" target="_blank">Poster Template (A0 size only)</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Register
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../register.php">MAPCON Registration
+                    </a>
+                    <a class="dropdown-item" href="https://forms.gle/FgXKFrPKpeaYxzFd7">Chapter Chair Meeting</a>
+                    <a class="dropdown-item" href="../startup-initiative.php">Startup Initiative</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Venue
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../venue.php">Venue</a>
+                    
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav> -->
+        <?php include '../include/nav.php'; ?>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+  <!-- course section -->
+
+  <!-- CFA section -->
+
+  <section class="course_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2 style="text-align: center;">
+          <span>3 Minute Thesis Competition</span>
+        </h2><br>
+      </div>
+      <div class="cfa_heading">
+        <!-- <h1>Dear <span>Researcher</span>,</h1> -->
+        <p style="text-align: justify;">
+        Are you ready to showcase your groundbreaking research in SPace, Aerospace and defenCE in just three minutes? Introducing the three minute thesis (3 Min) competition at IEEE SPACE 2024 Conference.
+        </p>
+
+        <p style="text-align: justify;">
+        <b>What is in 3 Min?</b> 3 Min is a thrilling opportunity for PhD students and young professionals to present their research in Space, Aerospace and defenCE to a specialist and non-specialit audience. In just three minutes and four slides, contestants will captivate listeners with their innovative ideas and discoveries.
+        </p>
+
+        <p style="text-align: justify;">
+        <b>Goals of 3 Min?</b> This Competition aims to ignite interest in the vast applications of Space, Aerospace and defenCE technologies and renew public fascination with its transformative potential. By sharing your research, you'll contribute to a broader understanding of SPace, Aerospace and defenCE advancements and their real-world impact.
+        </p>
+
+        <p style="text-align: justify;">
+        <b>How is it Judged, and How to Prepare?</b> A panel of experts will evaluate presentations based on the clarity of the problem statement, relevance to SPace, Aerospace and defenCE society, and demonstrated research excellence. Prepare to impress with concise, engaging delivery and a clear demonstration of your research's significance.
+        </p>
+        
+        <p style="text-align: justify;">
+        <b>Who can Participate?</b> ALL IEEE student members nearing the completion of their PhD are encourged to participate and elevate their research to a national stage. Don't miss this chance to showcase your work, gain valuable experience and boost your confidence!
+        </p>
+
+        <p style="text-align: justify;">
+        <b>Prizes and Recognition: Top 3 contenders will vie for prestigious awards. Including</b>
+        </br>
+        1 Prize: 10,000/-
+        </br>
+        2nd Prize: 7,000/-
+        </br>
+        3d Prize: 5,000/-
+        </p>
+
+        <p style="text-align: justify;">
+        Complementory registration is provided for all participants, ensuring that everyone has the opportunity to participate in this exiting event.
+        </p>
+
+        <p style="text-align: justify;">
+        <b>Application Procedure:</b>
+
+        1. Submission of Research Title and Description: Submit a title and short description of your research work, including an introduction, research gap, work done, practical applications, and its significance, not exceeding 2 pages in length.</br>
+        2. Submission of a short biography and research activities, as well as the expected graduation date. Include a list of published and submitted journals, conference papers, relevant research prizes, research initiatives, and funding details no longer than two pages.</br>
+        3. Endorsement Letter from Supervisor: Provide an endorsement letter from your supervisor explicity stating that they have no issues with showcasing your thesis work to a national-level audience
+        </p>
+
+        <p style="text-align: justify;">
+        <b>Application requirements:</b> Combine all documents into a single PDF file and send it to baisakhi20@ieee.org with cc to ieeespace2024@gmail.com
+        </p>
+
+        <p style="text-align: justify;">
+        <b>Selection Process:</b> Upto 40 condidates will be selected to partcipate in the 3 Min thesis competition at IEEE SPACE 2024
+        </p>
+
+        <p style="text-align: justify;">
+        For more details please contact:
+        </p>
+
+        <p style="text-align: justify;">
+        Baisakhi Bandyopadhyay: tania.banerjee678@gmail.com / baisakhi20@ieee.org
+        </p>
+        
+        <p style="text-align: justify;">
+        <b>Last date for submission:</b> Please send the combined PDF file before 31st May, 2024.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <center>
+    <div class="detail_box">
+        <a href="../downloads/3 Minute Thesis Competition.pdf" class="button-con" download>
+            <h1>Download</h1>
+        </a>
+    </div>
+  </center>
+
+  <!-- end course section -->
+
+  </section>
+
+  <!-- sponsors section -->
+
+  <?php include '../sponsors.php'; ?>
+
+  <!-- end sponsprs section -->
+
+  <div class="bottom_bg">
+    <!-- info section -->
+    <section class="info_section ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <hr>
+          </div>
+        </div>
+        <div class="info_box ">
+          <div class="col-md-2">
+            <div class="row">
+              <img src="../images/MAPCON-LOGO.png" width="200px">
+            </div>
+            <div class="row">
+              <div class="social_box">
+                <a href="https://m.facebook.com/IEEEMAPCON/" target="_blank">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/ieeemapcon?lang=en" target="_blank">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ieee-space-1859532bb/" target="_blank">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h3 class="f-header">Connect With IEEE</h3>
+            <ul>
+              <li class="f-links"><a href="https://ieee.taleo.net/careersection/2/jobsearch.ftl?utm_source=mf&utm_campaign=taleo-jobs&utm_medium=footer&utm_term=taleo-jobs%20at%20ieee">Careers
+                  at IEEE</a></li>
+              <li class="f-links"><a href="https://ieee-aess.org/">IEEE AESS</a></li>
+              <li class="f-links"><a href="https://ieeeaps.org/">IEEE APS</a></li>
+              <li class="f-links"><a href="https://mtt.org/">IEEE MTT-S</a></li>
+              <li class="f-links"><a href="https://aps-mtts.ieeebangalore.org/">AP/MTT Joint Bangalore Chapter</a></li>
+              <li class="f-links"><a href="https://iln.ieee.org/public/TrainingCatalog.aspx">IEEE Learning Network</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="f-header">Membership</h3>
+            <ul>
+              <li class="f-links"><a href="https://www.ieee.org/membership/join/index.php?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=join">Join</a>
+              </li>
+              <li class="f-links"><a href="https://www.ieee.org/membership/renew.php?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=renew">Renew</a>
+              </li>
+              <li class="f-links"><a href="https://www.ieee.org/membership/benefits/index.php">Benefits</a></li>
+              <li class="f-links"><a href="https://ieee-collabratec.ieee.org/?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=collabratec-membership-list">IEEE
+                  Collabratec</a></li>
+              <li class="f-links"><a href="https://ieeebangalore.org/guide-to-join-ieee/">Guide to Join IEEE</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="f-header">Quick Links</h3>
+            <ul>
+              <li class="f-links"><a href="https://ieeespace.org/">Home</a></li>
+              <li class="f-links"><a href="https://ieeespace.org/organizing-committee/">Organizing Committee</a></li>
+              <li class="f-links"><a href="https://ieeespace.org/call-for-papers/">Call For Papers</a></li>
+              <li class="f-links"><a href="https://ieeespace.org/sponsorship.php">Sponsorship</a></li>
+              <li class="f-links"><a href="https://ieeespace.org/awards.php">Awards</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h3 class="f-header">Contact Info</h3>
+            <div class="detail_box">
+              <a href="https://ieeespace.org/contact.php" class="button-con">
+                Contact and Support
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- end info_section -->
+
+  </div>
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="footer_box">
+        <p>Powered by and Copyright &copy; IEEESPACE2024 - IEEE Aerospace and Electronic Systems Society (AESS) and IEEE Microwaves, Antennas and Propagation Conference</p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="../js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="../js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    height: auto;
+  }
+  .slide-1{
+    height: 100vh;
+  }
+  .slide-2{
+    height: 100vh;
+  }
+  .slide-3{
+    height: 100vh;
+  }
+
+  .slide-1{
+    margin-top: 0;
+    background-image: url(../images/car/welcome.gif);
+  }
+  .slide-2{
+    margin-top: 0;
+    background-image: url(../images/car/2.jpg);
+  }
+  .slide-3{
+    margin-top: 0;
+    background-image: url(../images/car/3.jpg);
+  }
+  .slide-4{
+    margin-top: 0;
+    background-image: url(../images/car/4.png);
+  }
+  .slide-5{
+    margin-top: 0;
+    background-image: url(../images/car/5.png);
+  }
+  .slide-6{
+    margin-top: 0;
+    background-image: url(../images/car/6.png);
+  }
+  .slide-7{
+    margin-top: 0;
+    background-image: url(../images/car/7.png);
+  }
+  .slide-8{
+    margin-top: 0;
+    background-image: url(../images/car/8.png);
+  }
+  .slide-9{
+    margin-top: 0;
+    background-image: url(../images/car/9.png);
+  }
+  .slide-10{
+    margin-top: 0;
+    background-image: url(../images/car/10.png);
+  }
+  .slide-11{
+    margin-top: 0;
+    background-image: url(../images/car/11.png);
+  }
+
+  .header_section {
+    margin-top: 0;
+  }
+
+  .quote_btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote_btn-container a {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .slider_section {
+    padding: 0px 0 0px 0;
+  }
+
+  .slider_section .carousel-indicators {
+    bottom: 55px;
+  }
+
+  .slider_section .detail_box{
+    margin-top: 80%;
+  }
+
+
+  .course_section .carousel_btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .course_section .carousel-control-prev,
+  .course_section .carousel-control-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+
+  .client_section .carousel_btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+
+  
+
+}
+
+@media (max-width: 768px) {
+  .slide-1{
+    position: relative;
+    margin-top: 0;
+    background-image: url(../images/car/welcome.gif);
+  }
+  .slide-2{
+    position: relative;
+    margin-top: 0;
+    background-image: url(../images/car/2.jpg);
+  }
+  .slide-3{
+    position: relative;
+    margin-top: 0;
+    background-image: url(../images/car/3.jpg);
+  }
+  .about_section .detail-box {
+    margin-top: 0px;
+  }
+
+  .subscribe_section {
+    padding-top: 75px;
+  }
+
+  .subscribe_section .row {
+    flex-direction: column-reverse;
+  }
+
+  .subscribe_section .detail-box {
+    margin-bottom: 45px;
+  }
+
+  .contact_section .map_container {
+    margin-top: 45px;
+  }
+
+  .info_section .info_box {
+    flex-direction: column;
+  }
+
+  .info_section .info_contact {
+    width: 100%;
+  }
+
+  .info_section .social_box {
+    margin: 0;
+    margin-top: 25px;
+  }
+
+  .footer_section .footer_box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer_section .footer_box p:not(:nth-last-child(1)) {
+    margin-bottom: 15px;
+  }
+
+  
+  
+}
+
+@media (max-width: 576px) {
+  .info_section .info_contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info_section .info_contact a:not(:nth-last-child(1)) {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 376px) {
+  .slider_section .detail_box h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
